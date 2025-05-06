@@ -1,5 +1,5 @@
 Data Structure
-(images/Group_ 30_(2).png)
+(images/Group_(1).png)
 The dataset contains 1,500 messages. They represent a combination of scripted and AI-generated responses. Here is a brief visualization and some interesting statistics:
 1.	We have 9 columns (for us programmers, 0 is also a number and is usually the first one). We will use some of the columns, specifically those related to categories and chats between the user and AI.
 2.	We have 1,359 chats. This is not much, but we can allocate 80% for training and 20% for model testing.
