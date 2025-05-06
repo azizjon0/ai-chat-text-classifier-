@@ -1,4 +1,4 @@
-Data Structure
+# Data Structure
 ![Data Structure](images/14.png)
 The dataset contains 1,500 messages. They represent a combination of scripted and AI-generated responses. Here is a brief visualization and some interesting statistics:
 1.	We have 9 columns (for us programmers, 0 is also a number and is usually the first one). We will use some of the columns, specifically those related to categories and chats between the user and AI.
@@ -7,7 +7,8 @@ The dataset contains 1,500 messages. They represent a combination of scripted an
 4.	We can see that the final columns do not present any issues, indicating that the data is evenly and correctly filled. Also, I noticed that the data was collected over a short period, judging by the time column.
 Goal
 From this data, we need to build a machine capable of accurately categorizing messages. The machine should be fast enough for Japeto to use categorization in real-time.
-3	Data Analysis                   
+# Data Analysis
+![Data Structure](images/13.png)                   
  
 Tasks
 Categories 
