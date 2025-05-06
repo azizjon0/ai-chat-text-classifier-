@@ -22,6 +22,7 @@ Assess message length and complexity. The word/character count ratio is examined
 
 # Category Distribution in the Dataset 
 ![Category Distribution](images/10.png)
+
 The dataset contains various categories, but some appear significantly more frequently than others.
 For example, "General conversation" and "Services" often occur together.
 Some categories may be too rare, which could cause issues when training the model.
@@ -46,6 +47,7 @@ Some categories may be too rare, which could cause issues when training the mode
 
 # Visualisation 
 ![](images/11.png)
+ 
  The histogram plot shows the distribution of the length of user messages (in blue) and chatbot answers (in red). The X-axis shows the length of messages in characters, the Y-axis shows the frequency (the number of messages of a certain length).
 # Conclusion 
 If a category contains many short words, the classification model may erroneously assign any short message to it, even if it is not relevant to the essence of the category. This can lead to a bias in the model's predictions. Therefore, it is essential to consider the length of messages as a factor that may affect the quality of classification.
@@ -57,6 +59,7 @@ A model restricted to selecting only one category may misinterpret the context. 
 This is necessary because the model works with numbers, not strings.
 # Feature engineering
 ![](images/4.png)
+
 Feature engineering is the process of selecting, manipulating and transforming raw data into features that can be used in supervised learning.
 
  Converts the text of a user_message message into a number of TF-IDF attributes.
@@ -69,6 +72,7 @@ Feature engineering is the process of selecting, manipulating and transforming r
 
 # Balancing Classes with Oversampling
 ![](images/5.png)
+ 
  Solves the problem of class imbalance (when some categories occur much more often than others).
 ###### RandomOverSampler creates duplicate examples from minority classes so that all classes have the same number of examples.
 This helps prevent the model from biasing towards majority classes.
