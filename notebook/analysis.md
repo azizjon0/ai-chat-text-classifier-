@@ -78,5 +78,6 @@ Feature engineering is the process of selecting, manipulating and transforming r
 This helps prevent the model from biasing towards majority classes.
 # Train-Test Split
 ![](images/6.png)
+
  Splits the data into training (80%) and test (20%) sets.
 This allows training the model on one part and evaluating it on another, unseen part. random_state=42 ensures repeatability (same partitioning every time)
