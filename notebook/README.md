@@ -9,7 +9,6 @@ Goal
 From this data, we need to build a machine capable of accurately categorizing messages. The machine should be fast enough for Japeto to use categorization in real-time.
 # Data Analysis
 ![](images/13.png)  
-Illustration of key predictive concepts: signal patterns, probability, and feedback loops.
  
 ### Tasks
 #### Categories 
